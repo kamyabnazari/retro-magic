@@ -14,15 +14,15 @@ Features:
 
 Simple UI, FPS Fast paced Controlls, Enemy AI with Pathfinding and States, Weapon and Projectile System, Music/Sound-Effects and a complete game loop to experience.
 
-#### Demo Video: [Link]()
+#### Demo Video: coming soon.
 
 ## Screenshots
 
 <p float="left">
-<img src="https://github.com/Kamyabnz/Retro-Magic-Demo/blob/main/ScreenShots/Screenshot-1.png" width="20%" height="20%">
-<img src="https://github.com/Kamyabnz/Retro-Magic-Demo/blob/main/ScreenShots/Screenshot-2.png" width="20%" height="20%">
-<img src="https://github.com/Kamyabnz/Retro-Magic-Demo/blob/main/ScreenShots/Screenshot-3.png" width="20%" height="20%">
-<img src="https://github.com/Kamyabnz/Retro-Magic-Demo/blob/main/ScreenShots/Screenshot-4.png" width="20%" height="20%">
+<img src="https://github.com/Kamyabnz/Retro-Magic-Demo/blob/main/ScreenShots/Screenshot-1.PNG" width="20%" height="20%">
+<img src="https://github.com/Kamyabnz/Retro-Magic-Demo/blob/main/ScreenShots/Screenshot-2.PNG" width="20%" height="20%">
+<img src="https://github.com/Kamyabnz/Retro-Magic-Demo/blob/main/ScreenShots/Screenshot-3.PNG" width="20%" height="20%">
+<img src="https://github.com/Kamyabnz/Retro-Magic-Demo/blob/main/ScreenShots/Screenshot-4.PNG" width="20%" height="20%">
 </p>
 
 ## Game Description
