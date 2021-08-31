@@ -1,0 +1,79 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://Scripts/Gameplay/CO_Fireball.gd" type="Script" id=1]
+
+[sub_resource type="SphereShape" id=1]
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 1, 0.4, 0, 1 )
+emission_enabled = true
+emission = Color( 1, 0.470588, 0, 1 )
+emission_energy = 1.0
+emission_operator = 0
+emission_on_uv2 = false
+
+[sub_resource type="SphereMesh" id=3]
+material = SubResource( 2 )
+
+[sub_resource type="Curve" id=4]
+min_value = -200.0
+max_value = 200.0
+_data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 0.0857143, 18.1818 ), 0.0, 0.0, 0, 0, Vector2( 1, 1 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=5]
+curve = SubResource( 4 )
+
+[sub_resource type="Curve" id=6]
+_data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 0.747619, 0.994318 ), 0.0, 0.0, 0, 0, Vector2( 0.990476, 0 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=7]
+curve = SubResource( 6 )
+
+[sub_resource type="ParticlesMaterial" id=8]
+emission_shape = 1
+emission_sphere_radius = 1.0
+direction = Vector3( 0, 0, 0 )
+spread = 180.0
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 1.0
+linear_accel_curve = SubResource( 5 )
+scale = 0.2
+scale_curve = SubResource( 7 )
+
+[sub_resource type="SpatialMaterial" id=9]
+vertex_color_use_as_albedo = true
+params_billboard_mode = 3
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+albedo_color = Color( 1, 0.537255, 0, 1 )
+emission_enabled = true
+emission = Color( 1, 0.584314, 0, 1 )
+emission_energy = 1.0
+emission_operator = 0
+emission_on_uv2 = false
+
+[sub_resource type="QuadMesh" id=10]
+material = SubResource( 9 )
+
+[node name="Fireball" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="Area" type="Area" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="Area"]
+shape = SubResource( 1 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+cast_shadow = 0
+mesh = SubResource( 3 )
+material/0 = null
+
+[node name="Particles" type="Particles" parent="."]
+cast_shadow = 0
+amount = 150
+lifetime = 0.6
+process_material = SubResource( 8 )
+draw_pass_1 = SubResource( 10 )
+
+[connection signal="body_entered" from="Area" to="." method="_on_Area_body_entered"]

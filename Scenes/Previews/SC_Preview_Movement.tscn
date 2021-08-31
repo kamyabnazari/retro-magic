@@ -1,0 +1,103 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Materials/DefaultMaterial/MT_Default_Orange.tres" type="Material" id=1]
+[ext_resource path="res://Scenes/Characters/SC_Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Materials/DefaultMaterial/MT_Default_Black.tres" type="Material" id=3]
+[ext_resource path="res://Materials/DefaultMaterial/MT_Default_Grey.tres" type="Material" id=4]
+
+[node name="Preview_Movement" type="Spatial"]
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0 )
+
+[node name="Blockout" type="CSGCombiner" parent="."]
+use_collision = true
+
+[node name="Floor" type="CSGBox" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0 )
+width = 72.0
+height = 8.0
+depth = 72.0
+material = ExtResource( 3 )
+
+[node name="FloorRemover" type="CSGBox" parent="Blockout/Floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+operation = 2
+width = 66.0
+height = 6.0
+depth = 68.0
+material = ExtResource( 3 )
+
+[node name="Box6" type="CSGBox" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, -2, 21 )
+width = 6.0
+depth = 6.0
+material = ExtResource( 1 )
+
+[node name="Box7" type="CSGBox" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 21 )
+width = 6.0
+depth = 6.0
+material = ExtResource( 1 )
+
+[node name="Box8" type="CSGBox" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, -2, 21 )
+width = 6.0
+depth = 6.0
+material = ExtResource( 1 )
+
+[node name="Box9" type="CSGBox" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 19, -2, 21 )
+width = 6.0
+depth = 6.0
+material = ExtResource( 1 )
+
+[node name="Box10" type="CSGBox" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 21 )
+material = ExtResource( 1 )
+
+[node name="Ramp2" type="CSGPolygon" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -18, -3, 24 )
+polygon = PoolVector2Array( -4, 0, 0, 2, 2, 2, 2, 0 )
+depth = 6.0
+material = ExtResource( 4 )
+
+[node name="Box" type="CSGBox" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, -2, -21 )
+width = 6.0
+depth = 6.0
+material = ExtResource( 1 )
+
+[node name="Box2" type="CSGBox" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -21 )
+width = 6.0
+depth = 6.0
+material = ExtResource( 1 )
+
+[node name="Box3" type="CSGBox" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, -2, -21 )
+width = 6.0
+depth = 6.0
+material = ExtResource( 1 )
+
+[node name="Box4" type="CSGBox" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 19, -2, -21 )
+width = 6.0
+depth = 6.0
+material = ExtResource( 1 )
+
+[node name="Box5" type="CSGBox" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -21 )
+material = ExtResource( 1 )
+
+[node name="Ramp" type="CSGPolygon" parent="Blockout"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -18, -3, -18 )
+polygon = PoolVector2Array( -4, 0, 0, 2, 2, 2, 2, 0 )
+depth = 6.0
+material = ExtResource( 4 )
+
+[node name="Environment" type="Spatial" parent="."]
+
+[node name="DirectionalLight" type="DirectionalLight" parent="Environment"]
+transform = Transform( 1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 13, 0 )
+shadow_enabled = true

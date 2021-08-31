@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Gameplay/CO_Spell.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Spells/SC_Fireball.tscn" type="PackedScene" id=2]
+
+[node name="Spell" type="Spatial"]
+transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0 )
+script = ExtResource( 1 )
+Projectile = ExtResource( 2 )
+
+[node name="Muzzle" type="Position3D" parent="."]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, -2.16395 )
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
