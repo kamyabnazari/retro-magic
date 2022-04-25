@@ -1,10 +1,10 @@
-# Color-Eater
+# Retro Magic Demo
 
 **Status:** Demo Project
 
 **Current Phase:** Prototype
 
-**Version** 1.0.0
+**Version** 1.1.0
 
 ## The Project
 
@@ -13,8 +13,6 @@ A simple demo project for desktop PCs in Godot called Retro Magic. This project 
 Features:
 
 Simple UI, FPS Fast paced Controlls, Enemy AI with Pathfinding and States, Weapon and Projectile System, Music/Sound-Effects and a complete game loop to experience.
-
-#### Demo Video: coming soon.
 
 ## Screenshots
 
@@ -37,7 +35,7 @@ Simple UI, FPS Fast paced Controlls, Enemy AI with Pathfinding and States, Weapo
 
 **Renderer:** GLES 3.0 (OpenGL ES 3.0)
 
-**Game Engine:** Godot (3.3)
+**Game Engine:** Godot (3.4.4)
 
 ## Rules
 
