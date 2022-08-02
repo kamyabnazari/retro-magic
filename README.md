@@ -2,9 +2,9 @@
 
 **Status:** Demo Project
 
-**Current Phase:** Prototype
+**Current Phase:** Demo
 
-**Version** 1.1.0
+**Version** 1.2.0
 
 ## The Project
 
@@ -17,10 +17,10 @@ Simple UI, FPS Fast paced Controlls, Enemy AI with Pathfinding and States, Weapo
 ## Screenshots
 
 <p float="left">
-<img src="https://github.com/Kamyabnz/Retro-Magic-Demo/blob/main/ScreenShots/Screenshot-1.PNG" width="20%" height="20%">
-<img src="https://github.com/Kamyabnz/Retro-Magic-Demo/blob/main/ScreenShots/Screenshot-2.PNG" width="20%" height="20%">
-<img src="https://github.com/Kamyabnz/Retro-Magic-Demo/blob/main/ScreenShots/Screenshot-3.PNG" width="20%" height="20%">
-<img src="https://github.com/Kamyabnz/Retro-Magic-Demo/blob/main/ScreenShots/Screenshot-4.PNG" width="20%" height="20%">
+<img src="https://github.com/kamyab-nazari/retro-magic-demo/blob/main/screenshots/Screenshot-1.PNG" width="20%" height="20%">
+<img src="https://github.com/kamyab-nazari/retro-magic-demo/blob/main/screenshots/Screenshot-2.PNG" width="20%" height="20%">
+<img src="https://github.com/kamyab-nazari/retro-magic-demo/blob/main/screenshots/Screenshot-3.PNG" width="20%" height="20%">
+<img src="https://github.com/kamyab-nazari/retro-magic-demo/blob/main/screenshots/Screenshot-4.PNG" width="20%" height="20%">
 </p>
 
 ## Game Description
@@ -35,7 +35,7 @@ Simple UI, FPS Fast paced Controlls, Enemy AI with Pathfinding and States, Weapo
 
 **Renderer:** GLES 3.0 (OpenGL ES 3.0)
 
-**Game Engine:** Godot (3.4.4)
+**Game Engine:** Godot (3.4.5)
 
 ## Rules
 

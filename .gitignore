@@ -12,9 +12,9 @@ data_*/
 
 # Asset .import ignores
 icon.png.import
-Textures/*.import
-Music/*.import
-ScreenShots/*.import
-Sound/*.import
-Global/*.import
-Textures/DefaultTexture/*.import
+textures/*.import
+music/*.import
+screenshots/*.import
+sound/*.import
+global/*.import
+textures/default-texture/*.import
