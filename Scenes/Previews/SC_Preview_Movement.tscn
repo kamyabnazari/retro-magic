@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Materials/DefaultMaterial/MT_Default_Orange.tres" type="Material" id=1]
-[ext_resource path="res://Scenes/Characters/SC_Player.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Materials/DefaultMaterial/MT_Default_Black.tres" type="Material" id=3]
-[ext_resource path="res://Materials/DefaultMaterial/MT_Default_Grey.tres" type="Material" id=4]
+[ext_resource path="res://materials/default-material/MT_Default_Orange.tres" type="Material" id=1]
+[ext_resource path="res://scenes/characters/SC_Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://materials/default-material/MT_Default_Black.tres" type="Material" id=3]
+[ext_resource path="res://materials/default-material/MT_Default_Grey.tres" type="Material" id=4]
 
 [node name="Preview_Movement" type="Spatial"]
 

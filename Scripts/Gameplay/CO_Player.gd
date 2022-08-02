@@ -115,4 +115,4 @@ func _on_Stats_died_signal():
 	var a_player = _transition.fade_in()
 	yield(a_player, "animation_finished")
 	queue_free()
-	CoSceneManager.goto_scene("res://Scenes/Main/SC_Battle.tscn")
+	CoSceneManager.goto_scene("res://scenes/main/SC_Battle.tscn")

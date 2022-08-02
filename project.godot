@@ -12,17 +12,17 @@ _global_script_classes=[ {
 "base": "KinematicBody",
 "class": "Enemy",
 "language": "GDScript",
-"path": "res://Scripts/Gameplay/CO_Enemy.gd"
+"path": "res://scripts/gameplay/CO_Enemy.gd"
 }, {
 "base": "Node",
 "class": "Stats",
 "language": "GDScript",
-"path": "res://Scripts/Gameplay/CO_Stats.gd"
+"path": "res://scripts/gameplay/CO_Stats.gd"
 }, {
 "base": "Node",
 "class": "Wave",
 "language": "GDScript",
-"path": "res://Scripts/Gameplay/CO_Wave.gd"
+"path": "res://scripts/gameplay/CO_Wave.gd"
 } ]
 _global_script_class_icons={
 "Enemy": "",
@@ -34,18 +34,18 @@ _global_script_class_icons={
 
 config/name="Retro Magic"
 config/description="You are the Arena fighter, use your magic to defeat your enemies."
-run/main_scene="res://Scenes/Core/SC_Main.tscn"
+run/main_scene="res://scenes/core/SC_Main.tscn"
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
-config/icon="res://ScreenShots/T-Icon.png"
+config/icon="res://screenshots/T-Icon.png"
 
 [audio]
 
-default_bus_layout="res://Global/BS_Bus_Layouts.tres"
+default_bus_layout="res://global/BS_Bus_Layouts.tres"
 
 [autoload]
 
-CoSceneManager="*res://Scripts/Core/CO_SceneManager.gd"
-CoGlobals="*res://Scripts/Core/CO_Globals.gd"
+CoSceneManager="*res://scripts/core/CO_SceneManager.gd"
+CoGlobals="*res://scripts/core/CO_Globals.gd"
 ScSound="*res://Scenes/Core/SC_Sound.tscn"
 
 [display]
@@ -126,5 +126,5 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
-environment/default_environment="res://Global/BS_Environment.tres"
+environment/default_environment="res://global/BS_Environment.tres"
 quality/dynamic_fonts/use_oversampling=false

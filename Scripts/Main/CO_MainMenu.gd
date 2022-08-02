@@ -12,7 +12,7 @@ func ready():
 func _on_PlayButton_pressed():
 	var a_player = _transition.fade_in()
 	yield(a_player, "animation_finished")
-	CoSceneManager.goto_scene("res://Scenes/Main/SC_Battle.tscn")
+	CoSceneManager.goto_scene("res://scenes/main/SC_Battle.tscn")
 
 func _on_ExitButton_pressed():
 	get_tree().quit()

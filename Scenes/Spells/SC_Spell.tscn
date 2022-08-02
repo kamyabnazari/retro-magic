@@ -1,7 +1,8 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Scripts/Gameplay/CO_Spell.gd" type="Script" id=1]
-[ext_resource path="res://Scenes/Spells/SC_Fireball.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scripts/gameplay/CO_Spell.gd" type="Script" id=1]
+[ext_resource path="res://scenes/spells/SC_Fireball.tscn" type="PackedScene" id=2]
+
 
 [node name="Spell" type="Spatial"]
 transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0 )

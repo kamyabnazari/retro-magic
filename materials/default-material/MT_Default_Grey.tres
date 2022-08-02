@@ -1,6 +1,6 @@
 [gd_resource type="SpatialMaterial" load_steps=2 format=2]
 
-[ext_resource path="res://Textures/DefaultTexture/Kamy World Productions_Orange.png" type="Texture" id=1]
+[ext_resource path="res://textures/default-texture/Block_Texture_Grey.png" type="Texture" id=1]
 
 [resource]
 flags_world_triplanar = true

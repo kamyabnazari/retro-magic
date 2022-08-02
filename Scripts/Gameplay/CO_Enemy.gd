@@ -19,9 +19,9 @@ onready var player : KinematicBody = get_node("../Player")
 onready var attack_timer = $AttackTimer
 onready var enemy_mesh = $MeshInstance
 
-var default_material = load("res://Materials/EnemyMaterial/MT_Enemy_Default.tres")
-var attack_material = load("res://Materials/EnemyMaterial/MT_Enemy_Attack.tres")
-var resting_material = load("res://Materials/EnemyMaterial/MT_Enemy_Resting.tres")
+var default_material = load("res://materials/enemy-material/MT_Enemy_Default.tres")
+var attack_material = load("res://materials/enemy-material/MT_Enemy_Attack.tres")
+var resting_material = load("res://materials/enemy-material/MT_Enemy_Resting.tres")
 
 enum state {
 	SEEKING,

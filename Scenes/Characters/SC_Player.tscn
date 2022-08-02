@@ -1,10 +1,10 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://Scripts/Gameplay/CO_Player.gd" type="Script" id=1]
-[ext_resource path="res://Scripts/Gameplay/CO_SpellController.gd" type="Script" id=2]
-[ext_resource path="res://Scenes/Spells/SC_Spell.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Scenes/Other/SC_Stats.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Scenes/Core/SC_SceneTransition.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scripts/gameplay/CO_Player.gd" type="Script" id=1]
+[ext_resource path="res://scripts/gameplay/CO_SpellController.gd" type="Script" id=2]
+[ext_resource path="res://scenes/spells/SC_Spell.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/other/SC_Stats.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/core/SC_SceneTransition.tscn" type="PackedScene" id=5]
 
 [sub_resource type="CapsuleShape" id=1]
 radius = 0.5
