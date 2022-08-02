@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=2]
-
-[ext_resource path="res://scripts/core/CO_Main.gd" type="Script" id=1]
-[ext_resource path="res://scenes/core/SC_SceneTransition.tscn" type="PackedScene" id=3]
-
-[node name="Main" type="Node"]
-script = ExtResource( 1 )
-
-[node name="SceneTransition" parent="." instance=ExtResource( 3 )]
