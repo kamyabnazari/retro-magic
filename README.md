@@ -1,4 +1,4 @@
-# Retro Magic Demo
+# Retro Magic
 
 **Status:** Demo Project
 
