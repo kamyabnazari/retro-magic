@@ -1,5 +1,7 @@
 # Retro Magic
 
+![Banner Image](/readme-screenshot.jpg)
+
 **Status:** Demo Project
 
 **Current Phase:** Demo
@@ -17,10 +19,10 @@ Simple UI, FPS Fast paced Controlls, Enemy AI with Pathfinding and States, Weapo
 ## Screenshots
 
 <p float="left">
-<img src="https://github.com/kamyab-nazari/retro-magic-demo/blob/main/screenshots/Screenshot-1.PNG" width="20%" height="20%">
-<img src="https://github.com/kamyab-nazari/retro-magic-demo/blob/main/screenshots/Screenshot-2.PNG" width="20%" height="20%">
-<img src="https://github.com/kamyab-nazari/retro-magic-demo/blob/main/screenshots/Screenshot-3.PNG" width="20%" height="20%">
-<img src="https://github.com/kamyab-nazari/retro-magic-demo/blob/main/screenshots/Screenshot-4.PNG" width="20%" height="20%">
+<img src="screenshots/Screenshot-1.PNG" width="20%" height="20%">
+<img src="screenshots/Screenshot-2.PNG" width="20%" height="20%">
+<img src="screenshots/Screenshot-3.PNG" width="20%" height="20%">
+<img src="screenshots/Screenshot-4.PNG" width="20%" height="20%">
 </p>
 
 ## Game Description
