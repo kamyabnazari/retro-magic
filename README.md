@@ -1,6 +1,6 @@
 # Retro Magic
 
-![Banner Image](/readme-screenshot.jpg)
+![Banner Image](cover-open-source-retro-magic.webp)
 
 **Status:** Demo Project
 
